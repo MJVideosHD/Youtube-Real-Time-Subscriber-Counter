@@ -1,0 +1,71 @@
+/**
+ * Base
+ */
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  color: #000;
+}
+body {
+  color: #444;
+  background-color: #222222;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.counter-wrapper {
+  text-align: center;
+  margin: 0 auto;
+
+}
+.counter-wrapper .time {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 100px;
+  margin: 5px;
+
+
+}
+.counter-wrapper .count {
+  background: #202020;
+  color: #f8f8f8;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 110px;
+  line-height: 190px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  top: 0;
+  width: 100%;
+}
+.counter-wrapper .count.top {
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 5px;
+  height: 100%;
+}
+.counter-wrapper .label {
+  font-size: normal;
+  margin-top: 5px;
+  display: block;
+  position: absolute;
+  top: 95px;
+  width: 100%;
+}
